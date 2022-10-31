@@ -1,6 +1,5 @@
-@media (prefers-color-scheme: dark){
-:root{background-color: #1e1e1e;}
-a,:root{color: white;}
+:root{
+color-scheme: light dark;
 }
 body{margin: 0;}
 .actions{
@@ -14,13 +13,7 @@ height: 30px;
 cursor: pointer;
 padding: 3px 5px;
 }
-.board{align-content: center;
-display: grid;
-grid: repeat(3,min(calc((100vh - 70px) / 3), calc(30vw - 18px)))/auto-flow min(calc(20vw - 12px), calc((200vh - 140px) / 9));
-gap: 10px;
-justify-content: center;
-padding: 10px;
-}
+.board{align-content: center;display: grid;grid: repeat(3,min(calc((100vh - 70px) / 3), calc(30vw - 18px)))/auto-flow min(calc(20vw - 12px), calc((200vh - 140px) / 9));gap: 10px;justify-content: center;padding: 10px;}
 .set-card.set-empty,.set-optional{display: none;}
 .set-card{
 align-items: stretch;
