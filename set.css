@@ -1,14 +1,6 @@
-:root{
-color-scheme: light dark;
-}
+:root{color-scheme: light dark;}
 body{margin: 0;}
-.actions{
-align-items: center;
-display: flex;
-justify-content: space-around;
-position: sticky;
-height: 30px;
-}
+.actions{align-items: center;display: flex;justify-content: space-around;position: sticky;height: 30px;}
 .btn{
 cursor: pointer;
 padding: 3px 5px;
@@ -28,7 +20,7 @@ position: relative;
 }
 .set-card:hover::after{
 background-color: #00000030;
-bottom: 0
+bottom: 0;
 content: "";
 left: 0;
 position: absolute;
